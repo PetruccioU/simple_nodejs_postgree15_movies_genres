@@ -37,7 +37,10 @@ package.json, package-lock.json, node_modules, .env(её поместим в Git
 - Создадим файл .env для хранения переменных окружения, и будем импортировать его с 
 помощью пакета dotenv.
 - Создадим базу данных PostgreSQL 15 в pgAdmin 4 : SQL код для её создания будем хранить
-в специально созданном файле database.sql в папке database_info. 
+в специально созданном файле database.sql в папке database_info. Выберем связь один ко многим
+![movie_simple_db_for_nodejs_server](https://user-images.githubusercontent.com/103509683/225907204-d6f03ea6-57c1-46af-9100-3d4b22d30b49.jpg)
+
+
 - Реализуем простой сервер c CRUD операциями на NodeJS.
 - Проверим работу сервера, формируя http-запросы из postman.
 - Задокументируем форму принимаемых сервером http-запросов, сохранив коллекцию запросов из 
